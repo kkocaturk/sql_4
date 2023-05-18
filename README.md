@@ -26,3 +26,6 @@ FROM actor
 WHERE first_name = 'Penelope';
 ```
 Yukarıda da belirttiğimiz gibi COUNT fonksiyonu ile sorgu sonucunda ortaya verileri sayıyoruz. Bu nedenle COUNT(*) veya COUNT(sütun_adı) aynı sonucu verir.
+
+- SELECT COUNT(DISTINCT length) FROM film; -- film tablosunda birbirinden farklı unique kaç adet length var?
+- SELECT DISTINCT length FROM film;        -- film tablosunda birbirinden farklı length'leri sorgular 
